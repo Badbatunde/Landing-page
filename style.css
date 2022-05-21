@@ -1,9 +1,39 @@
+/* charmonman for blockquote
+goldman for nav-links
+faster One for logo
+finger paint for figcaption
+Englebert for copyright
+Katibeh for h1
+Fjord One for h2
+caladea for p */
+
 body {
   font-size: 16px;
   background-color: black;
   color: white;
 }
 
+h1 {
+  font-family: "Katibeh", cursive;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: "Fjord One", serif;
+}
+
+.header p {
+  font-size: 25px;
+  font-family: "caladea", serif;
+}
+
+p {
+  font-family: "caladea", serif;
+}
+
+figcaption {
+  font-family: "finger paint", cursive;
+}
 .nav {
   display: flex;
   justify-content: space-between;
@@ -12,11 +42,21 @@ body {
   padding: 5px 50px;
 }
 
+.logo {
+  font-size: x-large;
+  font-family: "faster One", cursive;
+}
+
+.logo a:hover {
+  color: white;
+}
+
 .nav ul {
   list-style: none;
 }
 li {
   padding-left: 30px;
+  font-family: "goldman", cursive;
 }
 
 a {
@@ -40,12 +80,17 @@ a:hover {
   width: 400px;
   height: auto;
   object-fit: cover;
+  border-radius: 10px;
 }
 
+.header-image:hover {
+  transform: scale(1.1);
+}
 .header button {
   background-color: blue;
   border-radius: 5px;
   padding: 5px 10px;
+  font-family: "goldman", cursive;
 }
 
 .header a:hover {
@@ -61,7 +106,7 @@ a:hover {
 
 .sect-1 {
   display: flex;
-  gap: 10px;
+  gap: 1px;
   flex-flow: row wrap;
   align-items: baseline;
   justify-content: center;
@@ -76,5 +121,69 @@ a:hover {
   border-radius: 10px;
 }
 
-.box {
+.box img:hover {
+  transform: scale(1.1);
+}
+
+.sect-2 {
+  background-color: grey;
+  padding: 20px 100px;
+  height: 100px;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+}
+
+.blockquote {
+  margin-bottom: 0;
+  padding-bottom: 1px;
+  font-size: x-large;
+  font-style: italic;
+  padding-left: 50px;
+}
+
+.blockquote cite {
+  font-weight: bold;
+}
+.blockquote div {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.sect-3 {
+  height: 150px;
+}
+
+.sect-box {
+  background-color: blue;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 150px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: left;
+  align-items: center;
+}
+
+.sect-box button {
+  background-color: blue;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 5px 20px;
+  font-family: "goldman", cursive;
+}
+
+.sect-box a:hover {
+  color: black;
+}
+
+.sect-box p {
+  font-size: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 5px;
+  font-family: "Englebert", sans-serif;
 }
