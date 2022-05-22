@@ -257,12 +257,11 @@ a:hover {
 
   .sect-box {
     height: 100px;
-    width: 400px;
+    width: 350px;
     font-size: small;
     text-align: left;
-    justify-content: space-between;
     padding-left: 0px;
-    margin-left: 8px;
+    margin-left: 12px;
     gap: 10px;
     padding-right: 0px;
     border-radius: 0px;
@@ -328,9 +327,9 @@ a:hover {
   }
 
   .sect-box button {
-    margin-right: 10px;
     font-size: small;
     border: none;
+    margin-left: 0px;
   }
 
   .sect-box div {
@@ -340,5 +339,11 @@ a:hover {
   .sect-box h2 {
     padding-bottom: 0px;
     margin-bottom: 0px;
+  }
+
+  .sect-box p {
+    font-size: 16px;
+    padding-top: 5px;
+    margin-top: 0px;
   }
 }
