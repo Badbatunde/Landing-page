@@ -261,11 +261,12 @@ a:hover {
     font-size: small;
     text-align: left;
     padding-left: 0px;
-    margin-left: 12px;
-    gap: 10px;
+    margin-left: 32px;
+    gap: 1px;
     padding-right: 0px;
-    border-radius: 0px;
+    border-radius: 10px;
     padding-bottom: 20px;
+    margin-top: 35px;
   }
 
   .header {
