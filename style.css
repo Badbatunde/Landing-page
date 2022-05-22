@@ -93,6 +93,10 @@ a:hover {
   color: blue;
 }
 
+.footer a {
+  font-family: "goldman", cursive;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
