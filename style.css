@@ -221,13 +221,24 @@ a:hover {
 }
 
 @media screen and (max-width: 600px) {
+  .footer {
+    padding-top: 5px;
+  }
   .sections {
     padding: 0px;
     margin-right: 0px;
     padding-top: 1px;
   }
 
+  .sections h2 {
+    padding-bottom: 20px;
+  }
   .sect-1 {
+    margin-top: 0px;
+  }
+
+  .sect-1 .box {
+    margin-bottom: 0px;
     margin-top: 0px;
   }
   .sect-2 {
@@ -243,15 +254,16 @@ a:hover {
   .sect-3 {
     padding: 0px;
   }
+
   .sect-box {
     height: 100px;
-    width: 480px;
+    width: 400px;
     font-size: small;
     text-align: left;
     justify-content: space-between;
     padding-left: 0px;
-    margin-left: 0px;
-    gap: 50px;
+    margin-left: 8px;
+    gap: 10px;
     padding-right: 0px;
     border-radius: 0px;
     padding-bottom: 20px;
@@ -267,13 +279,13 @@ a:hover {
   }
 
   .header button {
-    margin-left: 150px;
+    margin-left: 120px;
   }
 
   .header p {
     text-align: center;
     font-size: large;
-    margin-top: 0px;
+    margin-top: 10px;
   }
 
   .header h1 {
@@ -300,6 +312,10 @@ a:hover {
     margin-bottom: 0px;
   }
 
+  .nav li {
+    margin-right: 35px;
+  }
+
   ul {
     display: flex;
     flex-direction: row;
@@ -319,5 +335,10 @@ a:hover {
 
   .sect-box div {
     margin-left: 20px;
+  }
+
+  .sect-box h2 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
 }
